@@ -3,3 +3,4 @@
  COPY . .
  RUN yarn install --production
  CMD ["node", "src/index.js"]
+ RUN yarn install --production1
